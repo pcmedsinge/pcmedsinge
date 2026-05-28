@@ -21,9 +21,9 @@
 I lead and build at the intersection of **healthcare standards**, **applied AI**, and **product delivery** — combining hands-on engineering with program ownership:
 
 - 🎯 **Program & Product Leadership** — driving applied-AI initiatives end-to-end: discovery → architecture → prototype → delivery
-- 🔌 **Healthcare Interoperability** — FHIR, openEHR, HL7, SMART-on-FHIR, Epic & Cerner integrations, TEFCA
+- 🔌 **Healthcare Interoperability** — FHIR, openEHR, HL7, SMART-on-FHIR, Epic & Cerner integrations, TEFCA, CQL · HEDIS quality measures
 - 🤖 **Applied AI / Clinical AI** — RAG, knowledge graphs, LLM agents, MCP servers for healthcare data
-- 🏗️ **Engineering Depth** — .NET 8, Python, microservices, clean architecture, GraphQL APIs
+- 🏗️ **Engineering Depth** — .NET 8, Python, TypeScript/NestJS, microservices, clean architecture, GraphQL APIs
 - 🩻 **Medical Imaging AI** — DICOM, MONAI, radiology pipelines
 - 🤝 **Techno-functional bridge** — translating between clinicians, product, and engineering
 - 🧮 **AI-augmented practitioner** — daily driver of GitHub Copilot, Claude Code & ChatGPT (mostly *plan-mode* / agentic workflows) for architecture, prototyping, code review, and documentation
@@ -37,6 +37,7 @@ I lead and build at the intersection of **healthcare standards**, **applied AI**
 ### 🏥 Healthcare Interoperability — FHIR & openEHR
 | Project | Stack | What it does |
 |---|---|---|
+| [fhir-dqm-engine](https://github.com/pcmedsinge/fhir-dqm-engine) ⭐ 🆕 | TypeScript · NestJS | **Pramana** — FHIR-native CQL quality measure engine: runs HEDIS/CMS eCQMs against FHIR R4 data, produces a standards-compliant FHIR MeasureReport. AI care-gap layer in progress. |
 | [fhir-mcp-suite](https://github.com/pcmedsinge/fhir-mcp-suite) ⭐ | Python | A suite of Model Context Protocol (MCP) servers for FHIR — letting LLMs query clinical data safely |
 | [healthcare-graphql-api](https://github.com/pcmedsinge/healthcare-graphql-api) ⭐ | .NET 8, HotChocolate | Production-ready Healthcare GraphQL API with JWT auth, caching, rate limiting, Docker |
 | [openEHR-trialcapture](https://github.com/pcmedsinge/openEHR-trialcapture) ⭐ | TypeScript | Clinical trial data capture using openEHR archetypes |
@@ -78,6 +79,7 @@ I lead and build at the intersection of **healthcare standards**, **applied AI**
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
@@ -90,6 +92,8 @@ I lead and build at the intersection of **healthcare standards**, **applied AI**
 ![DICOM](https://img.shields.io/badge/DICOM-4B0082?style=flat)
 ![SMART_on_FHIR](https://img.shields.io/badge/SMART--on--FHIR-FF6B35?style=flat)
 ![TEFCA](https://img.shields.io/badge/TEFCA-2E8B57?style=flat)
+![CQL](https://img.shields.io/badge/CQL-8B0000?style=flat)
+![HEDIS](https://img.shields.io/badge/HEDIS-2E4057?style=flat)
 
 **AI / ML**
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
@@ -130,6 +134,7 @@ This is how nearly every repo here was built — it's also how I run program wor
 
 ## 🔭 Currently Working On
 
+- 🏗️ **`fhir-dqm-engine` (Pramana)** — FHIR-native CQL quality measure engine · v0.3.0-alpha.1 shipped: CQL execution against FHIR R4, FHIR MeasureReport output, 69.8% BP control rate on 279 patients · Phase 4 next: care-gap API + AI layer
 - 🛠️ **`fhir-mcp-suite`** — extending MCP server coverage for more FHIR resources
 - 📚 **`TEFCA-Knowledge`** — building out v1.0 of the practitioner hub
 - 🧬 **openEHR data capture apps** — ADHD/autism screening + clinical trial capture
