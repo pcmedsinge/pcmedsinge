@@ -1,12 +1,25 @@
 ---
 
 <h1 align="center">Hi, I'm Parag Medsinge 👋</h1>
-<h3 align="center">Technical AI Program Lead · Applied AI · Healthcare Interoperability</h3>
+<h3 align="center">Healthcare AI Solutions Architect & Technical Leader</h3>
+<h4 align="center">Long career in Healthcare IT · Building Agentic Clinical AI on FHIR · openEHR · MCP</h4>
 
 <p align="center">
-  <i>Techno-functional leader bridging <b>EHR systems</b>, <b>healthcare standards</b> (FHIR · openEHR · TEFCA),
-  and <b>applied AI</b> (RAG · Knowledge Graphs · MCP · Medical Imaging) —<br/>
-  from architecture and prototypes to product delivery.</i>
+  <i>Techno-functional leader. Long career leading product development in healthcare IT,
+  now working full-time and independently on <b>FHIR (payer-side), openEHR, MCP, agentic
+  LLM workflows, and Radiology AI</b> — building open-source reference implementations.<br/>
+  I work in <b>AI-native, plan-mode-first workflows</b>, and I read, write, and review
+  code throughout the build (now AI-augmented).</i>
+</p>
+
+<p align="center">
+  <sub>
+    🩺 Healthcare IT — long career &nbsp;·&nbsp;
+    👥 Led teams of 30+ engineers across multiple geographies &nbsp;·&nbsp;
+    🔌 FHIR (R4/R5, Da Vinci) · openEHR · MCP &nbsp;·&nbsp;
+    🤖 LangGraph · LangChain · MONAI · MedGemma &nbsp;·&nbsp;
+    🧠 AI-augmented builder (Copilot · Claude Code)
+  </sub>
 </p>
 
 <p align="center">
@@ -18,15 +31,28 @@
 
 ## 🩺 What I Do
 
-I lead and build at the intersection of **healthcare standards**, **applied AI**, and **product delivery** — combining hands-on engineering with program ownership:
+I work at the intersection of **healthcare standards** and **applied AI** — designing systems, writing the specifications, and getting them into a working state end-to-end:
 
-- 🎯 **Program & Product Leadership** — driving applied-AI initiatives end-to-end: discovery → architecture → prototype → delivery
-- 🔌 **Healthcare Interoperability** — FHIR, openEHR, HL7, SMART-on-FHIR, Epic & Cerner integrations, TEFCA, CQL · HEDIS quality measures
-- 🤖 **Applied AI / Clinical AI** — RAG, knowledge graphs, LLM agents, MCP servers for healthcare data
-- 🏗️ **Engineering Depth** — .NET 8, Python, TypeScript/NestJS, microservices, clean architecture, GraphQL APIs
-- 🩻 **Medical Imaging AI** — DICOM, MONAI, radiology pipelines
-- 🤝 **Techno-functional bridge** — translating between clinicians, product, and engineering
-- 🧮 **AI-augmented practitioner** — daily driver of GitHub Copilot, Claude Code & ChatGPT (mostly *plan-mode* / agentic workflows) for architecture, prototyping, code review, and documentation
+- 🧭 **Solutions Architecture for Clinical AI** — system design and reference implementations spanning data, agents, evals, and clinical-workflow fit
+- 🔌 **Healthcare Interoperability** — **FHIR R4/R5** (with emphasis on the **payer side** — Da Vinci PAS, CRD, DTR, PDex, Plan-Net, Drug Formulary, BCDA), **openEHR** (CKM, EHRbase, AQL), **SMART-on-FHIR**, HL7
+- 🤖 **Agentic Clinical AI** — multi-agent workflows on **LangGraph / LangChain**, **MCP** servers and clients for clinical data and policy reasoning, RAG over clinical and payer-policy corpora
+- 🩻 **Radiology AI** — early-stage detection of lung disease and breast cancer; DICOM, MONAI, MedGemma, Orthanc PACS, OHIF *(current independent engagement, under NDA)*
+- 👥 **Techno-functional leadership** — long career leading product development on **Sunrise Clinical Manager, Sunrise Surgery, and adjacent products** at Altera Digital Health (formerly Allscripts) with teams of **30+ engineers across multiple geographies**
+- 🧠 **AI-native, plan-mode-first workflows** — daily driver of **GitHub Copilot** and **Claude Code** for plan-mode thinking, spec-driven builds, architecture review, and code review. I read, write, and review code throughout the build (now AI-augmented).
+
+---
+
+## � How I Lead
+
+For most of my career I led product development on **Sunrise Clinical Manager, Sunrise Surgery, and adjacent products** at Altera Digital Health (formerly Allscripts) — teams of **30+ engineers across multiple geographies**, shipping into live clinical environments.
+
+- **Delivery philosophy** — spec-first and AI-orchestrated, the same way the repos on this profile are built. Plan-mode before code, ADRs for non-trivial decisions, eval and review gates per slice.
+- **Code-review and mentoring** — I stay close to the code through reviews and architecture conversations, and back engineers when their judgment is sound. The goal is teams that can decide without me in the room.
+- **Hiring** — I optimise for judgment, domain curiosity, and figure-it-out ability over framework counts. Same bar I hold myself to.
+
+Since March 2025, I have been working **full-time and independently**, including a current **fractional engineering-leadership engagement on a Radiology AI venture** focused on early-stage detection of lung disease and breast cancer (under NDA).
+
+> *Open to Healthcare AI Solutions Architect, Technical Leader, or Fractional / Advisory roles where deep healthcare-IT domain expertise meets applied AI.*
 
 ---
 
@@ -34,36 +60,33 @@ I lead and build at the intersection of **healthcare standards**, **applied AI**
 
 > Sorted by relevance, not date. See pinned repos below or my [full repository list](https://github.com/pcmedsinge?tab=repositories).
 
+### 🤖 Agentic Clinical AI & MCP
+| Project | Stack | What it does |
+|---|---|---|
+| **Prior-Auth Co-pilot** 🚧 *(flagship, in build)* | LangGraph · MCP · FHIR Da Vinci PAS/CRD/DTR | Agentic, FHIR-native Prior-Authorization co-pilot targeting the **CMS-0057 Jan 2027** mandate. Assembles clinical evidence, reasons over payer policy, drafts the PAS bundle, and explains the decision with citations. *Public roadmap coming Week 2.* |
+| [fhir-mcp-suite](https://github.com/pcmedsinge/fhir-mcp-suite) ⭐ | Python · MCP | A suite of Model Context Protocol servers for FHIR — letting LLM agents query clinical data safely |
+| [fhir-mapping-agent](https://github.com/pcmedsinge/fhir-mapping-agent) ⭐ | Python · LangChain | LLM agent for mapping arbitrary clinical data into FHIR resources |
+| [bodhi_app](https://github.com/pcmedsinge/bodhi_app) ⭐ | FastAPI · React · Neo4j | **ClinIQ · BODHI** — clinical knowledge-graph app on the *Bharat Ontology for Disease & Healthcare Informatics* (Eka Care) |
+| [openEHR_TrialSafety_TrialMatch](https://github.com/pcmedsinge/openEHR_TrialSafety_TrialMatch) | Python · GPT-4o · AQL | Agentic trial-safety screening and trial-matching over openEHR data with AQL |
+| **Clinical LLM Quality Harness** 🚧 *(flagship #2, in build)* | Python · LangGraph · Evals | Eval & observability framework for clinical AI — three tracks: ambient-scribe note quality (hallucination, SOAP adherence, FHIR write-back), prior-auth reasoning quality, and clinical Q&A grounding. |
+
 ### 🏥 Healthcare Interoperability — FHIR & openEHR
 | Project | Stack | What it does |
 |---|---|---|
-| [fhir-dqm-engine](https://github.com/pcmedsinge/fhir-dqm-engine) ⭐ 🆕 | TypeScript · NestJS | **Pramana** — FHIR-native CQL quality measure engine: runs HEDIS/CMS eCQMs against FHIR R4 data, produces a standards-compliant FHIR MeasureReport. AI care-gap layer in progress. |
-| [fhir-mcp-suite](https://github.com/pcmedsinge/fhir-mcp-suite) ⭐ | Python | A suite of Model Context Protocol (MCP) servers for FHIR — letting LLMs query clinical data safely |
-| [healthcare-graphql-api](https://github.com/pcmedsinge/healthcare-graphql-api) ⭐ | .NET 8, HotChocolate | Production-ready Healthcare GraphQL API with JWT auth, caching, rate limiting, Docker |
-| [openEHR-trialcapture](https://github.com/pcmedsinge/openEHR-trialcapture) ⭐ | TypeScript | Clinical trial data capture using openEHR archetypes |
+| [fhir-dqm-engine](https://github.com/pcmedsinge/fhir-dqm-engine) ⭐ 🆕 | TypeScript · NestJS | **Pramana** — FHIR-native CQL quality measure engine: runs HEDIS/CMS eCQMs against FHIR R4 data, produces a standards-compliant FHIR MeasureReport. **69.8% BP control rate** measured on a 279-patient synthetic cohort. AI care-gap layer in progress. |
+| [FHIRPayerProvider_RCM_Knowledge](https://github.com/pcmedsinge/FHIRPayerProvider_RCM_Knowledge) | Docs · FHIR | Payer-side FHIR & RCM knowledge base — Da Vinci IGs, policy patterns, integration notes |
+| [openEHR-trialcapture](https://github.com/pcmedsinge/openEHR-trialcapture) ⭐ | TypeScript · openEHR | Clinical trial data capture using openEHR archetypes |
+| [healthcare-graphql-api](https://github.com/pcmedsinge/healthcare-graphql-api) ⭐ | .NET 8 · HotChocolate | Healthcare GraphQL API with JWT auth, caching, rate limiting, Docker |
 | [python-healthcare-api-microservices](https://github.com/pcmedsinge/python-healthcare-api-microservices) ⭐ | Python | Healthcare API in a microservices pattern |
-| [TEFCA-Knowledge](https://github.com/pcmedsinge/TEFCA-Knowledge) | HTML / Docs | A practitioner's hub for TEFCA + FHIR + Clinical AI |
-| [EpicSmartBackendApp-4-1-Github](https://github.com/pcmedsinge/EpicSmartBackendApp-4-1-Github) | C# | SMART-on-FHIR backend application using Epic |
-| [CleanArchitectureHealthcareAPI](https://github.com/pcmedsinge/CleanArchitectureHealthcareAPI) | C# | Clean-architecture .NET healthcare API reference |
+| [TEFCA-Knowledge](https://github.com/pcmedsinge/TEFCA-Knowledge) | Docs | A practitioner's hub for TEFCA + FHIR + Clinical AI |
 
-### 🤖 Clinical AI / GenAI / RAG / Knowledge Graphs
+### 🩻 Radiology & Medical Imaging AI
 | Project | Stack | What it does |
 |---|---|---|
-| [bodhi_app](https://github.com/pcmedsinge/bodhi_app) ⭐ | FastAPI · React · Neo4j | **ClinIQ · BODHI** — full-stack clinical knowledge-graph app on the *Bharat Ontology for Disease & Healthcare Informatics* (Eka Care) |
-| [fhir-mapping--agent](https://github.com/pcmedsinge/fhir-mapping--agent) ⭐ | Python | LLM agent for mapping data into FHIR resources |
-| [KnowledgeRAG](https://github.com/pcmedsinge/KnowledgeRAG) | Python | Retrieval-augmented generation over knowledge corpora |
-| [GraphRAG](https://github.com/pcmedsinge/GraphRAG) | Python | Graph-based RAG implementation |
-| [pnumoniaApp-Monai](https://github.com/pcmedsinge/pnumoniaApp-Monai) 🚧 | Python / MONAI | Pneumonia detection on chest images using MONAI *(WIP)* |
-| [RAdImageProcessing](https://github.com/pcmedsinge/RAdImageProcessing) 🚧 | Python | Radiology image processing pipeline *(WIP)* |
+| [pneumonia-monai](https://github.com/pcmedsinge/pneumonia-monai) 🚧 | Python · MONAI · DICOM | Pneumonia detection on chest images using MONAI |
+| [RAdImageProcessing](https://github.com/pcmedsinge/RAdImageProcessing) 🚧 | Python · DICOM | Radiology image processing pipeline |
 
-### 💻 Backend & Platform Engineering
-| Project | Stack | What it does |
-|---|---|---|
-| [nodejs-healthcare-api](https://github.com/pcmedsinge/nodejs-healthcare-api) | Node.js | Healthcare API on Node.js |
-| [Azure-Functions-HandsOn](https://github.com/pcmedsinge/Azure-Functions-HandsOn) | C# / Azure | Serverless on Azure Functions |
-| [devops-pipeline-github](https://github.com/pcmedsinge/devops-pipeline-github) | GitHub Actions | CI/CD pipelines with GitHub Actions |
-
-> Browse all repos by topic: [`#fhir`](https://github.com/pcmedsinge?tab=repositories&q=&type=&language=&sort=) · [`#healthcare`](https://github.com/pcmedsinge?tab=repositories) · [`#clinical-ai`](https://github.com/pcmedsinge?tab=repositories) · [`#dotnet`](https://github.com/pcmedsinge?tab=repositories)
+> Browse all repos by topic: [`#fhir`](https://github.com/pcmedsinge?tab=repositories) · [`#agentic-ai`](https://github.com/pcmedsinge?tab=repositories) · [`#mcp`](https://github.com/pcmedsinge?tab=repositories) · [`#langgraph`](https://github.com/pcmedsinge?tab=repositories) · [`#healthcare`](https://github.com/pcmedsinge?tab=repositories) · [`#openehr`](https://github.com/pcmedsinge?tab=repositories) · [`#clinical-ai`](https://github.com/pcmedsinge?tab=repositories)
 
 ---
 
@@ -110,16 +133,18 @@ I lead and build at the intersection of **healthcare standards**, **applied AI**
 
 ---
 
-## 🧬 How I Build (AI-Augmented Workflow)
+## � How I Build & Lead in 2026
 
-I work *with* AI agents — not just to autocomplete code, but as collaborative thinking partners. A typical loop on any non-trivial work:
+My working assumption is that **plan-mode, spec-driven, AI-orchestrated workflows are now the senior norm** — not a quirk. Every repo on this profile is built this way, and this is how I expect the teams I lead to ship.
 
-1. **Plan-mode first** — talk through the problem, constraints and trade-offs with Claude / Copilot agent before writing a single line
-2. **Architecture artefact** — produce the design doc / sequence diagram / FHIR resource map *with* the AI, then review it critically
-3. **Iterate in small slices** — each prototype tested with the AI as a reviewer (security, edge cases, OWASP)
-4. **Documentation as a first-class output** — every repo gets a real README, not an afterthought
+1. **Plan-mode first** — talk through the problem, constraints, and trade-offs with Claude Code or Copilot agent before writing a line of code. The plan is the artefact.
+2. **Specification-driven** — design doc, sequence diagram, FHIR resource map, agent graph, or eval plan produced *with* the AI, then reviewed critically against domain context.
+3. **Build in small slices** — each slice reviewed for correctness, security (OWASP), and clinical safety. AI as reviewer; judgment stays with me.
+4. **Evals and documentation as first-class outputs** — every repo ships with a real README, measurable behaviour, and a clear status (WIP / Stable / Reference).
 
-This is how nearly every repo here was built — it's also how I run program work: structured AI-augmented thinking compresses discovery and design cycles dramatically.
+**As a leader**, my job is to set up the *quality gates* a team ships against — the spec rituals, eval bars, ADR cadence, and code-review standards — not to be the fastest typist in the room.
+
+**For hiring conversations**: I'm strongest in **architecture rounds, system-design discussions, and walking through any of the repos on this profile**. If your loop is built around live algorithm whiteboarding, we're probably not the right fit — and that's a useful filter for both of us.
 
 ---
 
@@ -134,14 +159,11 @@ This is how nearly every repo here was built — it's also how I run program wor
 
 ## 🔭 Currently Working On
 
-- 🏗️ **`fhir-dqm-engine` (Pramana)** — FHIR-native CQL quality measure engine · v0.3.0-alpha.1 shipped: CQL execution against FHIR R4, FHIR MeasureReport output, 69.8% BP control rate on 279 patients · Phase 4 next: care-gap API + AI layer
-- 🛠️ **`fhir-mcp-suite`** — extending MCP server coverage for more FHIR resources
-- 📚 **`TEFCA-Knowledge`** — building out v1.0 of the practitioner hub
-- 🧬 **openEHR data capture apps** — ADHD/autism screening + clinical trial capture
-
-## 🩻 Also Exploring (work-in-progress, not yet pinned)
-
-- **Radiology & Medical Imaging AI** — chest X-ray classification with MONAI, DICOM pipelines, PACS integration via MCP. A dedicated showcase project is planned — watch this space.
+- 🧭 **Prior-Auth Co-pilot** *(flagship #1, in build)* — agentic, FHIR-native PA co-pilot for the **CMS-0057 Jan 2027** mandate. Da Vinci PAS / CRD / DTR + policy reasoning + audit trail. Public roadmap and weekly slices in progress.
+- 🧪 **Clinical LLM Quality Harness** *(flagship #2, in build)* — eval & observability framework across three tracks: ambient-scribe note quality, prior-auth reasoning quality, and clinical Q&A grounding.
+- 🩻 **Radiology AI** *(NDA, ongoing)* — fractional engineering leadership on early-stage detection of lung disease and breast cancer; DICOM, MONAI, MedGemma, Orthanc PACS, OHIF.
+- 🏗️ **`fhir-dqm-engine` (Pramana)** — care-gap API + AI layer on top of the CQL quality-measure engine; 69.8% BP control rate measured on a 279-patient synthetic cohort.
+- 🛠️ **`fhir-mcp-suite`** — extending MCP server coverage for more FHIR resources; feeds the Prior-Auth flagship.
 
 ---
 
@@ -149,9 +171,9 @@ This is how nearly every repo here was built — it's also how I run program wor
 
 - 💼 LinkedIn: <https://linkedin.com/in/paragmedsinge>
 - 📧 Email: <paragmedsinge@yahoo.com>
-- 🌍 Based in: Pune, Maharashtra, India
-- 💬 Open to: leadership roles, advisory engagements & collaborations in **healthcare interoperability**, **applied AI**, and **clinical-AI product development**
+- 🌍 Based in: Pune, Maharashtra, India · open to remote / hybrid worldwide
+- 💬 *Open to Healthcare AI Solutions Architect, Technical Leader, or Fractional / Advisory roles where deep healthcare-IT domain expertise meets applied AI.*
 
 ---
 
-<sub>⚡ <b>Note:</b> Repos here are my hands-on lab — most solve a real interoperability or clinical-data problem from program work, not tutorials. I work in the open: expect a mix of WIP prototypes and stable showcases, each clearly labelled.</sub>
+<sub>⚡ <b>Note:</b> The repos on this profile are reference implementations and working prototypes built around real interoperability and clinical-AI problems — not tutorials. Each is clearly labelled WIP / Stable / Reference.</sub>
