@@ -1,13 +1,14 @@
 ---
 
 <h1 align="center">Hi, I'm Parag Medsinge 👋</h1>
-<h3 align="center">Healthcare AI Solutions Architect & Technical Leader</h3>
-<h4 align="center">Long career in Healthcare IT · Building Agentic Clinical AI on FHIR · openEHR · MCP</h4>
+<h3 align="center">Healthcare AI Leader · Technical & Delivery Leadership</h3>
+<h4 align="center">Working at the intersection of Healthcare & AI — Agentic Clinical AI, Interoperability (FHIR · openEHR · MCP), Clinical NLP & Medical Imaging</h4>
 
 <p align="center">
-  <i>Techno-functional leader. Long career leading product development in healthcare IT,
-  now working full-time and independently on <b>FHIR (payer-side), openEHR, MCP, agentic
-  LLM workflows, and Radiology AI</b> — building open-source reference implementations.<br/>
+  <i>Healthcare AI leader and techno-functional product-development leader. Long career leading
+  product development in healthcare IT, now working full-time and independently across
+  <b>agentic clinical AI, interoperability (FHIR · openEHR · MCP), clinical NLP, and medical
+  imaging AI</b> — building open-source reference implementations.<br/>
   I work in <b>AI-native, plan-mode-first workflows</b>, and I read, write, and review
   code throughout the build (now AI-augmented).</i>
 </p>
@@ -52,7 +53,7 @@ For most of my career I led product development on **Sunrise Clinical Manager, S
 
 Since March 2025, I have been working **full-time and independently**, including a current **fractional engineering-leadership engagement on a Radiology AI venture** focused on early-stage detection of lung disease and breast cancer (under NDA).
 
-> *Open to Healthcare AI Solutions Architect, Technical Leader, or Fractional / Advisory roles where deep healthcare-IT domain expertise meets applied AI.*
+> *Open to Healthcare AI leadership roles — AI Technical Leader, AI Delivery / Program Leader, Solutions Architect, or Fractional / Advisory — where deep healthcare-IT domain expertise meets applied AI.*
 
 ---
 
@@ -172,7 +173,7 @@ My working assumption is that **plan-mode, spec-driven, AI-orchestrated workflow
 - 💼 LinkedIn: <https://linkedin.com/in/paragmedsinge>
 - 📧 Email: <paragmedsinge@yahoo.com>
 - 🌍 Based in: Pune, Maharashtra, India · open to remote / hybrid worldwide
-- 💬 *Open to Healthcare AI Solutions Architect, Technical Leader, or Fractional / Advisory roles where deep healthcare-IT domain expertise meets applied AI.*
+- 💬 *Open to Healthcare AI leadership roles — AI Technical Leader, AI Delivery / Program Leader, Solutions Architect, or Fractional / Advisory — where deep healthcare-IT domain expertise meets applied AI.*
 
 ---
 
