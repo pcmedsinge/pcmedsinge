@@ -1,7 +1,7 @@
 ---
 
 <h1 align="center">Hi, I'm Parag Medsinge 👋</h1>
-<h3 align="center">Healthcare AI Leader · Technical & Delivery Leadership</h3>
+<h3 align="center">Healthcare AI Leader · Technical Program & Delivery Leadership</h3>
 <h4 align="center">Working at the intersection of Healthcare & AI — Agentic Clinical AI, Interoperability (FHIR · openEHR · MCP), Clinical NLP & Medical Imaging</h4>
 
 <p align="center">
